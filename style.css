@@ -95,7 +95,9 @@ nav {
 }
 
 /* category-section */
-
+.categories {
+  margin: 64px auto;
+}
 .cate-card-con {
   display: flex;
   gap: 24px;
@@ -106,12 +108,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 4px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 12px;
   flex: 1;
 }
-.cate-card img {
-}
+
 .cate-card h3 {
   color: white;
   font-weight: 500;
@@ -138,4 +139,38 @@ nav {
     rgb(66, 137, 255) 15.416%,
     rgb(63, 7, 248) 74.29%
   );
+}
+
+/* shoes */
+.shoes-bp-parent {
+  background: rgb(244, 244, 244);
+}
+.shoes-sec {
+  background: rgb(244, 244, 244);
+  padding: 50px 0;
+}
+
+.shoe-card-con {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.shoe-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+}
+.shoe-card img {
+  width: 336px;
+  height: 202px;
+}
+.card-price {
+  display: block;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.shoe-card .panda-btn {
+  background: black;
 }
