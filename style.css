@@ -142,6 +142,19 @@ nav {
 }
 
 /* shoes */
+
+.shoes-title-see-all {
+  display: flex;
+  justify-content: space-between;
+}
+.shoes-title-see-all p {
+  font-size: 20px;
+  color: #ff9d00;
+}
+.shoes-title-see-all h2 {
+  font-weight: bold;
+  font-size: 34px;
+}
 .shoes-bp-parent {
   background: rgb(244, 244, 244);
 }
@@ -173,4 +186,25 @@ nav {
 }
 .shoe-card .panda-btn {
   background: black;
+}
+/* button input */
+.contact-us-con {
+  background: rgb(255, 242, 241);
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 71px;
+  margin-bottom: 52px;
+}
+
+.cont-in-btn-part input {
+  border: none;
+  padding: 15px 152px;
+}
+.cont-in-btn-part {
+  display: flex;
+  justify-content: center;
+}
+.cont-in-btn-part .panda-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
